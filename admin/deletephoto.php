@@ -1,4 +1,4 @@
-<?php 
+ <?php 
  include 'adminauth.php';
  include '../include/connection.php';
  session_start();
@@ -7,3 +7,4 @@
   mysqli_query($con,$query);
  header('Location: uploadprofilephoto.php');
  ?>
+    
